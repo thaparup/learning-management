@@ -1,6 +1,8 @@
 import NonDashboardNavbar from '@/components/NonDashboardNavbar'
 import React from 'react'
-import Landing from './(nondashboard)/Landing/page'
+import Landing from './(nondashboard)/landing/page'
+import Footer from '@/components/Footer'
+
 
 const page = () => {
   return (
@@ -9,7 +11,9 @@ const page = () => {
 
       <main className='nondashboard-layout__main'>
         <Landing />
+
       </main>
+      <Footer />
     </div>
   )
 }
